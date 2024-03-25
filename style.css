@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    background-image: url(/imags/neiron1.png), url(/imags/neiron1.png);
+    background-repeat: no-repeat;
+    background-position-y: 200px, 200px ;
+    background-position-x:0px, 1400px ;
+    background-size: 550px;
+}
+.header{
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.h1-text{
+    color: #fff;
+    font-size: 60px;
+    padding-left: calc((100vw - 403px) / 2);
+}
+.btn{
+    padding: 13px 48px;
+    font-size: 25px;
+    margin-left: 350px;
+    background: linear-gradient(to right, rgb(155, 155, 238), rgb(241, 168, 241));
+    border: none;
+    border-radius: 25px;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 550px;
+    gap: 20px;
+}
+.p-inp{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.p-i{
+    text-align: center;
+    color: #a7a7a7;
+}
+.inp :nth-child(2) {
+    margin-bottom: 20px;
+}
+.intic{
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 15px;
+
+}
+.p-anim{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 5px;
+}
+.inp :nth-child(5) {
+    margin-bottom: 10px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+    border: none;
+    button{
+        padding: 15px 10px;
+        background: linear-gradient(to right, rgb(155, 155, 238), rgb(241, 168, 241));
+        font-size: 15px;
+        border-radius: 15px;
+    }
+}
+button:hover{
+    opacity: 90%;
+}
