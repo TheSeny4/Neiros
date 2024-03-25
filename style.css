@@ -6,7 +6,7 @@
 }
 body{
     background-color: #000000;
-    background-image: url(/imags/neiron1.png), url(/imags/neiron1.png);
+    background-image: url(imags/neiron1.png), url(imags/neiron1.png);
     background-repeat: no-repeat;
     background-position-y: 200px, 200px ;
     background-position-x:0px, 1400px ;
